@@ -1,0 +1,10 @@
+import sys
+
+c = open('/dev/hidraw0', 'rb' )
+
+code =str(c.read(12))
+
+print(code)
+
+
+https://pypi.org/project/usb-barcode-scanner/

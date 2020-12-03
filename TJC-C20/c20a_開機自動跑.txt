@@ -1,0 +1,3 @@
+sudo nano /home/pi/.bashrc
+echo Running at boot 
+sudo python3 /home/pi/c20a/c20a.py
